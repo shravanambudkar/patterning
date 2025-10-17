@@ -1,6 +1,17 @@
 def main():
     print("Hello from star-struck!")
+    
+def first_pattern():
+    for i in range(5):
+        print(5*'*')
 
+def second_pattern():
+    for i in range(5):
+        print((i+1)*'*')
+        
+def third_pattern():
+    for i in range(5):
+        print("".join(str(x+1) for x in list(range(i+1))))
     
 
 
