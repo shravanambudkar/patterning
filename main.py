@@ -12,10 +12,14 @@ def second_pattern():
 def third_pattern():
     for i in range(5):
         print("".join(str(x+1) for x in list(range(i+1))))
+
+def fourth_pattern():
+    for i in range(5):
+        print(f'{i+1}'*(i+1))
     
 
 
 if __name__ == "__main__":
     main()
-    third_pattern()
+    fourth_pattern()
 
